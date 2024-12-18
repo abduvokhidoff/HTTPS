@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status-message {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.error-message {
+    color: red;
+}
+
+.add-contact-form {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto 20px;
+    max-width: 600px;
+}
+
+.add-contact-form input, 
+.add-contact-form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.add-contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.card-info {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-number {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.card-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+
+.card-actions button:hover {
+    transform: scale(1.2);
+}
+
+.card-actions .edit {
+    color: #007bff;
+}
+
+.card-actions .delete {
+    color: #dc3545;
+}
